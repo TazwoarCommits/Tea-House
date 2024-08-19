@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tea House</title>
+    <link rel="stylesheet" href="style.css">
     <!-- google font cdn -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,7 +25,7 @@
         }
       </script>
 </head>
-<body>
+<body class="manrope">
     <main class="max-w-screen-xl mx-auto px-16 lg:px-28">
         <!-- header section -->
           <header class="lg:flex pt-10 mb-16">
@@ -61,7 +62,7 @@
                 <p class="text-gray-600 max-w-3xl mx-auto">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
                </div>
                <!-- featured product cards -->
-               <div class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
+               <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
                  <!-- product Cards -->
                   <div class="rounded-xl shadow-md bg-gray-50 overflow-hidden">
                     <img class="rounded=xl mx-auto pt-4" src="./images/tea-1.png" alt="">
@@ -116,7 +117,7 @@
           </section>
         <!-- Super Customer -->
            <section class="mb-24">
-            <div class="bg-gradient-to-r from-orange-500 to-red-500 rounded-xl grid grid-cols-1 sm:gap-4 lg:gap-40 lg:grid-cols-2 text-white px-7 lg:px-16 sm:pb-8 md:pb-20">
+            <div class="bg-gradient-to-r from-orange-500 to-red-500 rounded-xl grid grid-cols-1 sm:gap-4 lg:gap-40 lg:grid-cols-2 text-white px-12 lg:px-16 sm:pb-8 md:pb-20">
                 <!-- text -->
                  <div class="flex justify-center items-center">
                     <div class="5/6">
@@ -129,7 +130,7 @@
                  <!-- review card section -->
                   <div class="relative pt-24">
                     <!-- mid card -->
-                    <div class="absolute top-7 h-56 text-black rounded-lg sm:w-full md:w-3/4 bg-white flex items-center p-5"> 
+                    <div class="absolute top-44 h-56 text-black rounded-lg sm:w-full md:w-3/4 bg-white flex items-center p-5 z-10"> 
                         <div class="absolute -top-7 -left-7 bg-white rounded-full p-1"><img src="./images/client.png" alt=""></div>
                         <div>
                             <p class="mb-5 text-gray-500">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
@@ -160,6 +161,98 @@
                   </div>
             </div>
            </section>
+        <!-- News and Event -->
+            <section class="mb-24">
+               <!-- texts -->
+                <div class="text-center mb-8">
+                  <h1 class="text-lg md:text-4xl font-bold mb-4">News & Events</h1>
+                  <p class="text-gray-600 max-w-3xl mx-auto">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+                </div>
+                <!-- cards -->
+                 <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                     <!-- card-1 -->
+                        <div class="border border-solid border-gray-300 p-4 rounded-xl shadow-lg">
+                          <div class="">
+                            <img src="./images/news-2.png" alt="">
+                          </div>
+                          <div class="">
+                            <p class="text-gray-600 mb-2">Feb 05, 2027</p>
+                            <h1 class="text-lg font-bold mb-2">Collecting 8 points for discount</h1>
+                            <p class="text-lg mb-2">There are many variations of passages of Lorem Ipsum available.</p>
+                            <h3 class="font-bold"><a href="#">Learn More</a></h3>
+                          </div>
+                        </div>
+                        <!-- card-2 -->
+                        <div class="border border-solid border-gray-300 p-4 rounded-xl shadow-lg">
+                           <div class="">
+                            <img src="./images/news-1.png" alt="">
+                           </div>
+                          <div class="">
+                            <p class="text-gray-600 mb-2">Feb 05, 2027</p>
+                            <h1 class="text-lg font-bold mb-2">Collecting 8 points for discount</h1>
+                            <p class="text-lg mb-2">There are many variations of passages of Lorem Ipsum available.</p>
+                            <h3 class="font-bold"><a href="#">Learn More</a></h3>
+                          </div>
+                        </div>
+                        <!-- card-3 -->
+                        <div class="border border-solid border-gray-300 p-4 rounded-xl shadow-lg">
+                          <img src="./images/news-3.png" alt="">
+                          <div class="">
+                            <p class="text-gray-600 mb-2">Feb 05, 2027</p>
+                            <h1 class="text-lg font-bold mb-2">Collecting 8 points for discount</h1>
+                            <p class="text-lg mb-2">There are many variations of passages of Lorem Ipsum available.</p>
+                            <h3 class="font-bold"><a href="#">Learn More</a></h3>
+                          </div>
+                        </div>
+                 </div>
+            </section>
     </main>
+    <footer class="bg-red-100 md:p-12">
+           <div class="md:mx-auto flex justify-around">
+               <div><img src="./images/cup.png" alt=""></div>
+               <div class="flex items-center gap-8">
+                <h1 class="text-xl font-medium text-gray-600">Ready to Get Started?</h1>
+                <button class="text-white bg-gradient-to-r from-orange-400 to bg-red-600 px-5 py-3 rounded-xl font-semibold">Get-Started</button>
+               </div>
+           </div>
+           <div class="my-16 grid grid-cols-4">
+               <div class="md:mx-auto">
+                  <h3 class="text-2xl font-medium">Quick Links</h3>
+                  <ul>
+                    <li class="md:my-4"><a href="">Home</a></li>
+                    <li class="md:my-4"><a href="">About Us</a></li>
+                    <li class="md:my-4"><a href="">Insurance</a></li>
+                    <li class="md:my-4"><a href="">Privacy Policy</a></li>
+                  </ul>
+               </div>
+               <div class="md:mx-auto">
+                <h3 class="text-2xl font-medium">Our Service</h3>
+                <ul>
+                  <li class="md:my-4"><a href="">Life Insurance</a></li>
+                  <li class="md:my-4"><a href="">Car Insurance</a></li>
+                  <li class="md:my-4"><a href="">Health Insurance</a></li>
+                  <li class="md:my-4"><a href="">House Insurance</a></li>
+                </ul>
+             </div>
+               <div class="md:mx-auto">
+                <h3 class="text-2xl font-medium">Help</h3>
+                <ul>
+                  <li class="md:my-4"><a href="">FAQs</a></li>
+                  <li class="md:my-4"><a href="">Contact Us</a></li>
+                </ul>
+             </div>
+               <div class="md:mx-auto space-y-4">
+                <h3 class="text-4xl font-bold">Subscribe to our newsletter</h3>
+                <div><input class="border border-solid border-b-4 bg-transparent" type="text" placeholder="suggestions"><button class="text-white bg-gradient-to-r from-orange-400 to bg-red-600 py-2 px-3 rounded-full font-semibold"><i class="fa-solid fa-arrow-right text-sm"></i></button></div>
+                <div>
+                  <ul class="flex gap-4">
+                    <li><i class="fa-brands fa-facebook"></i></li>
+                    <li><i class="fa-brands fa-twitter"></i></li>
+                    <li><i class="fa-brands fa-square-instagram"></i></li>
+                  </ul>
+                </div>
+             </div>
+           </div>
+    </footer>
 </body>
 </html>
